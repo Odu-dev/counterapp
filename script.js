@@ -1,8 +1,5 @@
-const counter = document.querySelector(".count");
-// const counterSubtract = document.querySelector(".subtract");
-// const counterReset = document.querySelector(".reset");
-// const counterAdd = document.querySelector(".add");
-const buttons = document.querySelector(".buttons");
+const counter = document.querySelector(".count"),
+  buttons = document.querySelector(".buttons");
 
 result = (e) => {
   if (e.target.classList.contains("add")) {
